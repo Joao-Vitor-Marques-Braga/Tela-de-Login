@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #01FF82;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box{
+    margin: 4% 10%; 
+    width: 80vw;
+    height: 80vh;
+    background-color: #180C24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#01FF82;
+    border-radius: 15px;
+}
+
+.principal_box{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_box h1{
+    font-size: 40px;
+}
+
+.secundary_box{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #372c42;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card h2{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield input::placeholder{
+    color: #f0ffff94
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+}
