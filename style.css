@@ -98,3 +98,10 @@ body{
     background-color: #00ff88;
     cursor: pointer;
 }
+
+@media (max-width: 786px){
+    .principal_box img{
+        width: 250px;
+        height: 260px;
+    }
+}
